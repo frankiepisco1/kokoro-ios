@@ -6,10 +6,14 @@ import Foundation
 /// Supported languages for text-to-speech synthesis.
 /// This enum defines the available language variants that can be used with the Kokoro TTS engine.
 public enum Language: String, CaseIterable {
-  /// No language specified or language-independent processing.
   case none = ""
-  /// US English (American English).
   case enUS = "en-us"
-  /// GB English (British English).
   case enGB = "en-gb"
+  case es = "es"
+  case fr = "fr-fr"
+  case ja = "ja"
+  case cmn = "cmn"
+  case hi = "hi"
+  case it = "it"
+  case ptBR = "pt-br"
 }
